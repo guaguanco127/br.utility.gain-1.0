@@ -1,9 +1,9 @@
-# Ableton Max for Live device: br.utility.gain-1.0  
+# Ableton Max for Live device: br.utility.gain.1.0  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
-Repository for br.utility.gain-1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain-1.0](https://github.com/guaguanco127/br.utility.gain-1.0)  
+Repository for br.utility.gain.1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain.1.0](https://github.com/guaguanco127/br.utility.gain.1.0)  
 Additional programs can be found here: [https://github.com/guaguanco127](https://github.com/guaguanco127)
 
 These files were created with Max/MSP version 8.5.6.
