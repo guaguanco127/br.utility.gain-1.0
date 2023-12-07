@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 59.0, 104.0, 930.0, 638.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -40,6 +40,51 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 82.0, 218.0, 150.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 5.0, 131.0, 216.0, 33.0 ],
+					"text" : "Open this up in patching mode \nCurrently it can be used as a bpatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 379.0, 244.0, 51.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 6.0, 39.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 0.57,
+							"parameter_initial" : [ 0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.dial",
+							"parameter_mmax" : 35.0,
+							"parameter_mmin" : -72.0,
+							"parameter_shortname" : "Decibels",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.dial"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 0,
 					"id" : "obj-39",
@@ -48,7 +93,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 302.0, 836.0, 136.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This outlet is the right audo out"
 				}
 
@@ -63,7 +107,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 829.0, 136.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This outlet is the left audo out"
 				}
 
@@ -78,7 +121,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 17.0, 136.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This inlet is the right audo in"
 				}
 
@@ -93,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 62.0, 17.0, 136.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This inlet is the left audo in"
 				}
 
@@ -107,7 +148,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 445.0, 380.0, 136.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This is now the \"amplitude\""
 				}
 
@@ -135,8 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 179.0, 282.0, 51.0 ],
-					"presentation_linecount" : 8,
+					"patching_rect" : [ 527.0, 179.0, 285.0, 51.0 ],
 					"text" : "This is like a preset, it loads the patch up so that it automatically starts at \"0. decibels\" which is unity volume (no change in volume)"
 				}
 
@@ -157,11 +196,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-32",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 252.0, 136.0, 24.0 ],
-					"text" : "The decibels"
+					"patching_rect" : [ 445.0, 248.0, 136.0, 51.0 ],
+					"text" : "The decibels\nObserve the inspector"
 				}
 
 			}
@@ -186,23 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.0, 436.0, 438.0, 104.0 ],
-					"presentation_linecount" : 11,
 					"text" : "This is a message that converts any number so that it is ready to be understood by the envelope (which is called [line~] )\n\nThe \"$1\" is a variable that is always the same as the amplitude decimal point that is going into it. The \"25\" means that there will be a 25 millisecond ramp time in the envleope. Without using the envelope all the sound will pop and crackle every time you change the volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-29",
-					"maxclass" : "flonum",
-					"maximum" : 35.0,
-					"minimum" : -72.0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 380.0, 252.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -227,7 +251,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.0, 559.5, 254.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This object creates an envelope so the volume can change "
 				}
 
@@ -241,7 +264,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 353.0, 680.0, 254.0, 78.0 ],
-					"presentation_linecount" : 5,
 					"text" : "These objects multiply signals and control volume. Here, it is adjusting the volume (amplitude) of the stereo signal by multiplying it by the amplitude of the envelope.  "
 				}
 
@@ -254,8 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 305.0, 254.0, 51.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 439.0, 305.0, 255.0, 51.0 ],
 					"text" : "This object converts decibels to amplitude, which mathematically is formatted better for your computer"
 				}
 
@@ -316,7 +337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 837.0, 26.0, 256.0, 181.0 ],
+					"patching_rect" : [ 837.0, 26.0, 257.0, 181.0 ],
 					"text" : "Created by Brian Riordan\n\nguaguanco127@gmail.com\nbrianriordanmusic@gmail.com\n\n10-29-2023\n\nThis is the basic version that doesn't use gen~\nIt is designed for those that are beginners with Max/MSP so they can learn from the comments and compare and contrast with the gen~ version \n"
 				}
 
@@ -432,7 +453,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-29", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -445,7 +466,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -459,7 +480,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -472,6 +493,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3" : [ "live.dial", "Decibels", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

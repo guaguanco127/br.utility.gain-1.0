@@ -26,9 +26,10 @@ Currently works in any sample rate or bit depth.
 There are two different versions:
 
 The first one, br.utility.gain.abs-1.0.maxpat, is an abstraction build using gen~.  
-The second one, br.utility.gain.basic.abs.1.0.maxpat, uses only MSP objects without the use of gen~. This version is more basic and heavily commented. 
 
-The purpose for having these two different versions is so that novices to Max/MSP can learn how basic devices can be created by observing the basic version. Additionally, those familiar to Max/MSP that are novices to gen~ can learn by comparing the two versions. 
+The second one, br.utility.gain.basic.abs.1.0.maxpat, uses only MSP objects without the use of gen~. This version is more basic and heavily commented. It appears in presentation mode with a [live.dial] object inside so you could use it inside of a [bpatcher]
+
+The purpose for having these two different versions is so that novices to Max/MSP can learn how basic devices can be created by observing the basic version. Additionally, those familiar to Max/MSP that are novices to gen~ can learn by comparing the two versions. Additionally, the basic version is ready for a [bpatcher] while the other version can be used with signals to control the decibels.
 
 ## <a name="Abstraction"></a>What is an Abstraction?
 
