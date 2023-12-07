@@ -56,6 +56,8 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 ## <a name="ExportVST"></a>How To Export as a VST or AU Audio Plugin
 
+**Please note that you can only use an audio plugin on the same computer that you created it with RNBO. Sending an audio plugin to another computer will not work and be flagged as an unrecognized developer** 
+
 1. Make Sure Max/MSP 8 is installed in your computer, and make sure you have a license for RNBO as well.
 
 2. Open up br.utility.gain.rnbo.vst.1.0.maxpat using Max/MSP 
@@ -65,6 +67,8 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 4. Select "Audio Plugin Export"
 
 5. Select settings needed to create a VST (or AU), and select the platform. Make sure you name your plugin. 
+
+
 
 
 

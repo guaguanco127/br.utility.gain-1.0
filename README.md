@@ -13,6 +13,8 @@ This is a basic patch/external/plugin/device that allows the user to adjust a th
 -72 dB is converted to negative infinity dB.
 Currently works in any sample rate or bit depth.  
 
+You can use as a Max for Live device within Ableton Live Suite, or as an abstration or external object within Max/MSP. You can also build your own VST or AU audio plugin to use with a DAW. 
+
 ## Links 
 
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.utility.gain.1.0/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
