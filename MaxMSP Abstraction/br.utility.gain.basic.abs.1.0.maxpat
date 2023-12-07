@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 218.0, 150.0, 60.0 ],
+					"patching_rect" : [ 27.0, 963.0, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 5.0, 131.0, 216.0, 33.0 ],
@@ -92,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 836.0, 136.0, 52.0 ],
+					"patching_rect" : [ 251.0, 863.0, 136.0, 52.0 ],
 					"text" : "This outlet is the right audo out"
 				}
 
@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 829.0, 136.0, 52.0 ],
+					"patching_rect" : [ 71.0, 856.0, 136.0, 52.0 ],
 					"text" : "This outlet is the left audo out"
 				}
 
