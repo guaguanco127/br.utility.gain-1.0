@@ -11,7 +11,7 @@ These files were created with Max/MSP version 8.5.6.
 ## Table of Contents 
 
 [About](#About)  
-[What is a Max for Live Device?](#M4L)
+[What is a Max for Live Device?](#M4L)  
 [How To Install](#Install)  
 
 ## <a name="About"></a>About

@@ -1,4 +1,4 @@
-# Max/MSP RNBO PAtches for External of VST Creation: br.utility.gain.1.0  
+# Max/MSP RNBO Patches for External of VST Creation: br.utility.gain.1.0  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  

@@ -1,4 +1,4 @@
-# Max/MSP Abstraction: br.utility.gain.abs-1.0  
+# Max/MSP Abstraction: br.utility.gain.abs.1.0  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
@@ -25,7 +25,7 @@ Currently works in any sample rate or bit depth.
 
 There are two different versions:
 
-The first one, br.utility.gain.abs-1.0.maxpat, is an abstraction build using gen~.  
+The first one, br.utility.gain.abs.1.0.maxpat, is an abstraction build using gen~.  
 
 The second one, br.utility.gain.basic.abs.1.0.maxpat, uses only MSP objects without the use of gen~. This version is more basic and heavily commented. It appears in presentation mode with a [live.dial] object inside so you could use it inside of a [bpatcher]
 
@@ -41,7 +41,7 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 1. Make sure you have Max/MSP 8 installed in your computer. And, make sure you are using a Max patch that is inside of a folder.  
 
-2. For the normal version of this abstraction, copy and paste br.utility.gain.abs-1.0.maxpat inside of the same folder as the Max patch you are using.     
+2. For the normal version of this abstraction, copy and paste br.utility.gain.abs.1.0.maxpat inside of the same folder as the Max patch you are using.     
   
 3. For the basic version of this abstraction, copy and paste br.utility.gain.basic.abs.1.0.maxpat inside of the same folder as the Max patch you are using. 
 
