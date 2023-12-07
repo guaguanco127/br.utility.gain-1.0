@@ -57,7 +57,7 @@ If the installation worked then the object will now exist in your patch.
 
 This external works almost like the abstraction version. However, you are unable to click inside of an external. 
 
-The first two inlets are for the left and the right stereo signals. You can give the message of "speed $1" with a float connected to the message to adjust the decibels using Max data.  
+The first two inlets are for the left and the right stereo signals. The 3rd inlet takes a float message between -72.0 and +35.0 to adjust the decibels.
 
 
     
