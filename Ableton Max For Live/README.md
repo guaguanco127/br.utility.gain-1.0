@@ -20,6 +20,8 @@ This is a basic Max for Live device that allows the user to adjust a the volume 
 -72 dB is converted to negative infinity dB.
 Currently works in any sample rate or bit depth.  
 
+Ableton Live already comes with an audio effect called Utility that contains this exact feature. The reason to use br.utility.gain.1.0 is so that you can learn the basics of how Max/MSP works within the Ableton environment.  
+
 There are two different versions:
 
 The first one, br.utility.gain.1.0.amxd, is a device build using gen~.  
