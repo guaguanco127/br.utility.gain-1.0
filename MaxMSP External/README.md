@@ -1,9 +1,9 @@
-# Max/MSP External: br.utility.gain-1.0~  
+# Max/MSP External: br.utility.gain.1.0~  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
-Repository for br.utility.gain-1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain-1.0](https://github.com/guaguanco127/br.utility.gain-1.0)  
+Repository for br.utility.gain.1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain-1.0](https://github.com/guaguanco127/br.utility.gain-1.0)  
 Additional programs can be found here: [https://github.com/guaguanco127](https://github.com/guaguanco127)
 
 These files were created with Max/MSP version 8.5.6.
@@ -51,13 +51,13 @@ An external is a type of object that does not come with your Max/MSP library. Un
 
 ## <a name="Use"></a>How To Use
 
-Open up a patch in Max/MSP, create a new object called br.utility.gain-1.0~
+Open up a patch in Max/MSP, create a new object called br.utility.gain.1.0~
 
 If the installation worked then the object will now exist in your patch. 
 
-This external works exactly like the abstraction version. However, you are unable to click inside of an external. 
+This external works almost like the abstraction version. However, you are unable to click inside of an external. 
 
-The first two inlets are for the left and the right stereo signals. The far right inlet is for a float to adjust the decibels between -72.0 and +35.0 dB  
+The first two inlets are for the left and the right stereo signals. You can give the message of "speed $1" with a float connected to the message to adjust the decibels using Max data. Or, if you prefer a signal driven approach, use the far right inlet is for a signal to adjust the decibels between -72.0 and +35.0 dB. Or,  
 
 
     

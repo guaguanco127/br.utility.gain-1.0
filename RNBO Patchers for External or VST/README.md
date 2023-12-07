@@ -1,9 +1,9 @@
-# Max/MSP RNBO PAtches for External of VST Creation: br.utility.gain-1.0  
+# Max/MSP RNBO PAtches for External of VST Creation: br.utility.gain.1.0  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
-Repository for br.utility.gain-1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain-1.0](https://github.com/guaguanco127/br.utility.gain-1.0)  
+Repository for br.utility.gain.1.0, with all related filtes, can be found here: [https://github.com/guaguanco127/br.utility.gain-1.0](https://github.com/guaguanco127/br.utility.gain-1.0)  
 Additional programs can be found here: [https://github.com/guaguanco127](https://github.com/guaguanco127)
 
 These files were created with Max/MSP version 8.5.6. and RNBO 1.2.3
@@ -23,9 +23,9 @@ These files were created with Max/MSP version 8.5.6. and RNBO 1.2.3
 
 There are two Max/MSP patches in this folder.  
 
-br.utility.gain.rnbo.ext_1.0 is a patch set up to export as a Max/MSP external.  
+br.utility.gain.rnbo.ext.1.0 is a patch set up to export as a Max/MSP external.  
 
-br.utility.gain.rnbo.vst_1.0.maxpat is a patch set up to export as a VST or AU audio plugin.  
+br.utility.gain.rnbo.vst.1.0.maxpat is a patch set up to export as a VST or AU audio plugin.  
 
 Either program allows the user to adjust a the volume of a stereo signal. The decibel range is from -72 dB to +35 dB.
 -72 dB is converted to negative infinity dB.
@@ -44,7 +44,7 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 1. Make Sure Max/MSP 8 is installed in your computer, and make sure you have a license for RNBO as well.
 
-2. Open up br.utility.gain.rnbo.ext_1.0.maxpat using Max/MSP 
+2. Open up br.utility.gain.rnbo.ext.1.0.maxpat using Max/MSP 
 
 3. Double-click on the [rnbo~] object while the patch is locked.
 
@@ -58,7 +58,7 @@ A VST is a third party audio plugin generally run within a digital audio worksta
 
 1. Make Sure Max/MSP 8 is installed in your computer, and make sure you have a license for RNBO as well.
 
-2. Open up br.utility.gain.rnbo.vst_1.0.maxpat using Max/MSP 
+2. Open up br.utility.gain.rnbo.vst.1.0.maxpat using Max/MSP 
 
 3. Double-click on the [rnbo~] object while the patch is locked.
 
