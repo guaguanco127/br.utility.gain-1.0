@@ -1,4 +1,4 @@
-# Max/MSP External: br.utility.gain-1.0  
+# Max/MSP External: br.utility.gain-1.0~  
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
@@ -45,13 +45,13 @@ An external is a type of object that does not come with your Max/MSP library. Un
 
 7. At the top of the screen find the dropdown menu called "Options" then select "File Preferences"
 
-8. Find an upty userpath and select "choose"
+8. Find an empty userpath and select "choose"
 
 9. From here, find and select the "Externals" folder where the external file was pasted to. Please note that you only have to select this user path within the File Preferences once.
 
 ## <a name="Use"></a>How To Use
 
-Open up a patch in Max/MSP, create a new object called br.utility.gain-1.0
+Open up a patch in Max/MSP, create a new object called br.utility.gain-1.0~
 
 If the installation worked then the object will now exist in your patch. 
 
