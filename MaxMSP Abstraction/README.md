@@ -45,7 +45,7 @@ By saving your logic in an abstraction, you can create modules that can be used 
   
 3. For the basic version of this abstraction, copy and paste br.utility.gain.basic.abs.1.0.maxpat inside of the same folder as the Max patch you are using. 
 
-4. In the Max patch you are using, create an object called br.utility.gain.abs.1.0 (or br.utility.gain.basic.abs.1.0 for the basic version.
+4. In the Max patch you are using, create an object called br.utility.gain.abs.1.0 (or br.utility.gain.basic.abs.1.0 for the basic version.)
 
 ## <a name="Use"></a>How To Use
 
